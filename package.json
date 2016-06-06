@@ -6,6 +6,7 @@
   "scripts": {
     "static": "webpack-dev-server --inline --hot --port 1338",
     "start": "webpack --config webpack.config.server.js && node build/",
+    "storybook": "start-storybook -p 9001",
     "test": "jest"
   },
   "repository": {
@@ -44,6 +45,7 @@
     "webpack": "^1.13.1"
   },
   "devDependencies": {
+    "@kadira/storybook": "^1.29.0",
     "eslint": "^2.11.1",
     "react-storybook": "^1.0.0",
     "webpack-dev-server": "^1.14.1"
