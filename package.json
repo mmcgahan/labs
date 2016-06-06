@@ -1,0 +1,51 @@
+{
+  "name": "labs",
+  "version": "1.0.0",
+  "description": "Sandbox for setting up personal site",
+  "main": "index.js",
+  "scripts": {
+    "static": "webpack-dev-server --inline --hot --port 1338",
+    "start": "webpack --config webpack.config.server.js && node build/",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcgahan/labs.git"
+  },
+  "author": "Michael McGahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmcgahan/labs/issues"
+  },
+  "homepage": "https://github.com/mmcgahan/labs#readme",
+  "dependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "boom": "^3.2.1",
+    "colors": "^1.1.2",
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0",
+    "jest": "^12.1.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-helmet": "^3.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "react-router-redux": "^4.0.4",
+    "redux": "^3.5.2",
+    "redux-rx": "^0.5.0",
+    "rx": "^4.1.0",
+    "velocity": "^0.7.2",
+    "velocity-react": "^1.1.5",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "react-storybook": "^1.0.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
